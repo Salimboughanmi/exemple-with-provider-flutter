@@ -48,6 +48,6 @@ class Model extends ChangeNotifier {
   String name = "welcome";
   changeName() {
     name = "salim";
-    notifyListeners();
+    notifyListeners(); // do rebuild to consumer
   }
 }
