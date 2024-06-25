@@ -12,7 +12,9 @@ class _TestOneState extends State<TestOne> {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context) => Model(),
+      create: (context) {
+        return Model();
+      },
       child: Scaffold(
           appBar: AppBar(
             title: Text("providers"),
@@ -22,7 +24,7 @@ class _TestOneState extends State<TestOne> {
             builder: (context, value, child) => Column(
               children: [
                 Center(
-                  child: Text("${value.name}"),
+                  child: Text(value.name),
                 ),
                 SizedBox(
                   height: 10,
@@ -48,6 +50,6 @@ class Model extends ChangeNotifier {
   String name = "welcome";
   changeName() {
     name = "salim";
-    notifyListeners(); // do rebuild to consumer
+    notifyListeners(); // do rebuild to consumer : jst partie consumer // envoyer notifity to cnsumer case modification
   }
 }
