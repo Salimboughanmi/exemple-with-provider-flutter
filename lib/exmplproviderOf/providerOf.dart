@@ -1,5 +1,5 @@
-import 'package:eshope/exmplproviderOf/providerOf%20expl.dart';
 import 'package:flutter/material.dart';
+import 'package:learn_provider/exmplproviderOf/providerOf%20expl.dart';
 import 'package:provider/provider.dart';
 
 ////////////////////////////////////////////////////////// provider of

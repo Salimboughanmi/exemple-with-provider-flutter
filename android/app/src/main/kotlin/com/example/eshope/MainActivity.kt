@@ -1,4 +1,4 @@
-package com.example.eshope
+package com.example.learn_provider
 
 import io.flutter.embedding.android.FlutterActivity
 

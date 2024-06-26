@@ -1,5 +1,5 @@
-import 'package:eshope/exmplproviderOf/providerOf.dart';
 import 'package:flutter/material.dart';
+import 'package:learn_provider/exmplproviderOf/providerOf.dart';
 import 'package:provider/provider.dart';
 
 // ignore: camel_case_types
