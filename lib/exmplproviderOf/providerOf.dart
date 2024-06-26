@@ -26,7 +26,7 @@ class _ExempleProvider_ofState extends State<ExempleProvider_of> {
 }
 
 class Model extends ChangeNotifier {
-  String text = "heloo";
+  var text = "heloo";
 
   changetext() {
     text = "salim";
