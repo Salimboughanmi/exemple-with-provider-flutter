@@ -1,3 +1,4 @@
+import 'package:eshope/exmplproviderOf/providerOf.dart';
 import 'package:eshope/testone.dart';
 import 'package:eshope/testtwo.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       //home: TestOne(),
-      home: TestTwo(),
+      //  home: TestTwo(),
+      home: ExempleProvider_of(),
     );
   }
 }
