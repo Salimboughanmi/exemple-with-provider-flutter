@@ -48,3 +48,23 @@ Utilisé pour fournir des objets qui implémentent ChangeNotifier.
 Permet de notifier automatiquement les widgets dépendants lorsque l'état change.
 En résumé, utilisez Provider pour les objets statiques ou immuables et ChangeNotifierProvider pour les objets dynamiques qui doivent notifier les widgets lorsque leur état change.
  */
+
+
+
+
+
+
+
+
+![providerArch](https://github.com/Salimboughanmi/exemple-with-provider-flutter/assets/92154372/c6a2cb45-621b-4efe-b227-1eedffede847)
+
+
+
+
+
+
+
+
+
+
+ 
