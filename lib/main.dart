@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:learn_provider/exmplproviderOf/providerOf.dart';
+import 'package:learn_provider/multi-provider/multiprov.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,8 @@ class MyApp extends StatelessWidget {
       ),
       //home: TestOne(),
       //  home: TestTwo(),
-      home: ExempleProvider_of(),
+      // home: ExempleProvider_of(),
+      home: Multiprovider(),
     );
   }
 }
